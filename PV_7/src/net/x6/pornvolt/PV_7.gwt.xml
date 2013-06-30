@@ -5,7 +5,7 @@
 -->
 <!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.5.1//EN"
   "http://google-web-toolkit.googlecode.com/svn/tags/2.5.1/distro-source/core/src/gwt-module.dtd">
-<module rename-to='pv_4'>
+<module rename-to='pv_7'>
   <!-- Inherit the core Web Toolkit stuff.                        -->
   <inherits name='com.google.gwt.user.User'/>
 
@@ -20,7 +20,7 @@
   <!-- Other module inherits                                      -->
 
   <!-- Specify the app entry point class.                         -->
-  <entry-point class='net.x2.pornvolt.client.PV_4'/>
+  <entry-point class='net.x6.pornvolt.client.PV_7'/>
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>

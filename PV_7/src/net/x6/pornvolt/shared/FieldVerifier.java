@@ -1,4 +1,4 @@
-package net.x2.pornvolt.shared;
+package net.x6.pornvolt.shared;
 
 /**
  * <p>

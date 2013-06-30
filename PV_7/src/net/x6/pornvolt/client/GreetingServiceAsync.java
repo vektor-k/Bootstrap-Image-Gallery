@@ -1,4 +1,4 @@
-package net.x2.pornvolt.client;
+package net.x6.pornvolt.client;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 

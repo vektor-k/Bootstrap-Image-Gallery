@@ -1,7 +1,7 @@
-package net.x2.pornvolt.server;
+package net.x6.pornvolt.server;
 
-import net.x2.pornvolt.client.GreetingService;
-import net.x2.pornvolt.shared.FieldVerifier;
+import net.x6.pornvolt.client.GreetingService;
+import net.x6.pornvolt.shared.FieldVerifier;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**

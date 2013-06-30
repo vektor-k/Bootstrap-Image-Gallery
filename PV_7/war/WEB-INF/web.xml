@@ -8,17 +8,17 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>net.x2.pornvolt.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>net.x6.pornvolt.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/pv_4/greet</url-pattern>
+    <url-pattern>/pv_7/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>PV_4.html</welcome-file>
+    <welcome-file>PV_7.html</welcome-file>
   </welcome-file-list>
 
 </web-app>
