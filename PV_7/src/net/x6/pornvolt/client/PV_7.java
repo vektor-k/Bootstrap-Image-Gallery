@@ -9,8 +9,6 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Grid;
-import com.google.gwt.user.client.ui.Image;
-import com.google.gwt.user.client.ui.HTMLPanel;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -33,25 +31,6 @@ public class PV_7 implements EntryPoint {
 		RootPanel rootPanel = RootPanel.get("errorLabelContainer");
 		rootPanel.add(errorLabel);
 		
-		Grid grid = new Grid(5, 1);
-		rootPanel.add(grid, 0, 0);
-		grid.setSize("130px", "768px");
-		
-		Image image_2 = new Image((String) null);
-		grid.setWidget(0, 0, image_2);
-		
-		Image image_3 = new Image((String) null);
-		grid.setWidget(1, 0, image_3);
-		
-		Image image_1 = new Image((String) null);
-		grid.setWidget(2, 0, image_1);
-		
-		Image image_4 = new Image((String) null);
-		grid.setWidget(3, 0, image_4);
-		
-		Image image = new Image((String) null);
-		grid.setWidget(4, 0, image);
-		
 		Grid grid_1 = new Grid(3, 1);
 		rootPanel.add(grid_1, 1245, 126);
 		grid_1.setSize("111px", "492px");
@@ -64,6 +43,10 @@ public class PV_7 implements EntryPoint {
 
 		rootPanel.add(lblNewLabel, 213, 43);
 		lblNewLabel.setSize("140px", "40px");
+		
+		Grid grid = new Grid(5, 1);
+		rootPanel.add(grid, 0, 0);
+		grid.setSize("140px", "768px");
 
 		// Create the popup dialog box
 		final DialogBox dialogBox = new DialogBox();
